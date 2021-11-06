@@ -1,11 +1,49 @@
-body {
-  background-color: black;
-  color: white;
+.center {
   text-align: center;
 }
 
-table {
+.green {
+  color: limegreen;
+}
+
+.cyan {
+  color: cyan;
+}
+
+.yellow {
+  color: gold;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 13pt;
+}
+
+h1 {
+  font-size: 34pt;
+  font-weight: bold;
+}
+
+hr {
+  width: 50%;
+}
+
+img.email {
+  height: 30px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+}
+
+a:link {
+  color: coral;
+}
+
+a:visited {
+  color:lightcoral;
+}
+
+a:active, a:hover {
+  color: floralwhite;
 }
