@@ -6,12 +6,12 @@
   color: limegreen;
 }
 
-.cyan {
-  color: cyan;
+.blue {
+  color: lightsteelblue;
 }
 
 .yellow {
-  color: gold;
+  color: darkkhaki;
 }
 
 body {
@@ -25,15 +25,12 @@ h1 {
   font-weight: bold;
 }
 
-hr {
+hr.ct {
   width: 50%;
 }
 
-img.email {
-  height: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+hr.tot {
+  width: 100%;
 }
 
 a:link {
