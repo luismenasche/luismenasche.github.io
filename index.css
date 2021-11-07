@@ -33,6 +33,10 @@ hr.tot {
   width: 100%;
 }
 
+img.email {
+  min-height: 25px;
+}
+
 a:link {
   color: coral;
 }
