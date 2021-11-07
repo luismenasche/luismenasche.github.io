@@ -34,7 +34,7 @@ hr.tot {
 }
 
 img.email {
-  min-width: 33%;
+  max-width: 90%;
 }
 
 a:link {
