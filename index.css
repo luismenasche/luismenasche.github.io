@@ -1,49 +1,47 @@
-.center {
-  text-align: center;
-}
-
-.green {
-  color: limegreen;
-}
-
-.blue {
-  color: lightsteelblue;
-}
-
-.yellow {
-  color: darkkhaki;
-}
-
-body {
+.page {
   background-color: black;
   color: white;
+  font-family: Verdana, sans-serif;
   font-size: 13pt;
 }
 
-h1 {
+.title {
   font-size: 34pt;
   font-weight: bold;
+  text-align: center;
 }
 
-hr.ct {
+.hr--ct {
   width: 50%;
 }
 
-img {
+.img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 80%;
 }
 
-a:link {
+.txt--green {
+  color: limegreen;
+}
+
+.txt--blue {
+  color: lightsteelblue
+}
+
+.txt--yellow {
+  color: darkkhaki;
+}
+
+.link:link {
   color: coral;
 }
 
-a:visited {
+.link:visited {
   color:lightcoral;
 }
 
-a:active, a:hover {
+.link:active, .link:hover {
   color: floralwhite;
 }
