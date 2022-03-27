@@ -24,25 +24,26 @@
 .name {
   font-size: 2.5rem;
   font-weight: bold;
-  margin: 5px 0;
+  line-height: 1;
+  margin: 20px 0;
   text-align: center;
 }
 
 .img-email {
   display: block;
   height: auto;
-  margin: 5px auto;
+  margin: 20px auto;
   max-width: 70%;
   width: 480px;
 }
 
-.languages {
+.language {
   display: flex;
   justify-content: center;
   margin: 20px 0;
 }
 
-.languages__opt {
+.language__opt {
   border: 2px solid white;
   color: white;
   padding: 5px;
@@ -51,15 +52,19 @@
   width: 120px;
 }
 
-.languages__opt:nth-child(1) {
+.language__opt:first-child {
   background-color: var(--gray-1);
   border-radius: 10px 0 0 10px;
   border-right: 0;
 }
 
-.languages__opt:nth-child(2) {
+.language__opt:last-child {
   background-color: var(--gray-2);
   border-radius: 0 10px 10px 0;
+}
+
+.language__opt:hover .language__name {
+  font-weight: bold;
 }
 
 .flag {
@@ -85,7 +90,9 @@
 .section__title {
   font-size: 1.3rem;
   font-weight: bold;
+  line-height: 1;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .topic {
@@ -143,17 +150,5 @@
   .footer {
     margin-bottom: 5px;
     padding: 0 13px;
-  }
-}
-
-@media screen and (max-height: 560px) {
-  .flag {
-    font-size: 1.1rem;
-  }
-}
-
-@media screen and (max-height: 430px) {
-  .flag {
-    font-size: 0.8rem;
   }
 }
